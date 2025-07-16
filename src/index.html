@@ -2,12 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>NsDemo</title>
+  <title>Ns Demo</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdns.gigya.com/js/gigya.js?apiKey=4_nkLebH6jU3JKIkAh4JWHow" async></script>
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+
+<nes-button
+  *ngIf="test"
+  (focus)="onFocus($event)"
+  (nesClick)="onCustomClick($event)"
+  (click)="onClick($event)"
+  [variant]="variant"
+  [disabled]="disabled"
+>
+  {{ title }}
+</nes-button>
+
+<nes-button nes-href="https://ns.nl"></nes-button>
+
+<nes-button [nesHref]="service.getURL()"></nes-button>
+
+  </app-root>
 </body>
 </html>

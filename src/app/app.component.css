@@ -1,0 +1,518 @@
+input#email, input#password {
+            padding-left: 12px !important;
+        }
+
+        .zakelijk-cdc,
+        .zakelijk-cdc * {
+            box-sizing: border-box;
+        }
+        .zakelijk-cdc {
+            background: var(--color-content-background-base, #f7f7f9);
+            height: 960px;
+            position: relative;
+            overflow: hidden;
+        }
+        .nsz-log-in-step-2 {
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 100%;
+            height: var(--viewport-height-xl, 960px);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            overflow: hidden;
+        }
+        .prototype-nav-landingpage {
+            flex-shrink: 0;
+            width: 100%;
+            height: 121px;
+            position: relative;
+        }
+        .main-nav-ns-zakelijk {
+            background: var(--colors-bg-elevated, #ffffff);
+            border-style: solid;
+            border-color: var(--colors-border-default, #e4e5e8);
+            border-width: 0px 0px 1px 0px;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            right: 0%;
+            left: 0%;
+            bottom: 0%;
+            top: 0%;
+        }
+        .mijn-ns-search {
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+            align-items: center;
+            justify-content: flex-end;
+            position: absolute;
+            right: 56px;
+            top: 60.5px;
+        }
+        .account-nav {
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .list-item {
+            padding: 8px 12px 8px 12px;
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            min-height: 48px;
+            position: relative;
+        }
+        .leading-container {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .icon-leading-container {
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+        .label-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .label {
+            color: var(--colors-text-default, #003082);
+            text-align: left;
+            font-family: "NsSans-Demi", sans-serif;
+            font-size: 16px;
+            line-height: 125%;
+            font-weight: 400;
+            position: relative;
+        }
+        .trailing-container {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .icon-trailing-container {
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+        .search-icon {
+            border-radius: var(--border-radius-md, 6px);
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+        .icon-leading {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            position: relative;
+        }
+        .meta-nav {
+            padding: 2px 0px 2px 0px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+            justify-content: flex-start;
+            position: absolute;
+            right: 64px;
+            top: 19px;
+        }
+        .consumenten {
+            color: var(--colors-text-default, #003082);
+            text-align: left;
+            font-family: var(--text-regular-sm-14-font-family, "NsSans-Regular", sans-serif);
+            font-size: var(--text-regular-sm-14-font-size, 14px);
+            line-height: var(--text-regular-sm-14-line-height, 150%);
+            font-weight: var(--text-regular-sm-14-font-weight, 400);
+            position: relative;
+        }
+        .zakelijk {
+            color: var(--colors-text-default, #003082);
+            text-align: left;
+            font-family: "NsSans-Bold", sans-serif;
+            font-size: 14px;
+            line-height: 150%;
+            font-weight: 700;
+            position: relative;
+        }
+        .ns-international {
+            color: var(--colors-text-default, #003082);
+            text-align: left;
+            font-family: var(--text-regular-sm-14-font-family, "NsSans-Regular", sans-serif);
+            font-size: var(--text-regular-sm-14-font-size, 14px);
+            line-height: var(--text-regular-sm-14-line-height, 150%);
+            font-weight: var(--text-regular-sm-14-font-weight, 400);
+            position: relative;
+        }
+        .in-english {
+            color: var(--colors-text-default, #003082);
+            text-align: left;
+            font-family: var(--text-regular-sm-14-font-family, "NsSans-Regular", sans-serif);
+            font-size: var(--text-regular-sm-14-font-size, 14px);
+            line-height: var(--text-regular-sm-14-line-height, 150%);
+            font-weight: var(--text-regular-sm-14-font-weight, 400);
+            position: relative;
+        }
+        .main-nav {
+            padding: 8px 0px 8px 0px;
+            display: flex;
+            flex-direction: row;
+            gap: 42px;
+            align-items: center;
+            justify-content: flex-start;
+            position: absolute;
+            left: 64px;
+            top: 56px;
+        }
+        .main-nav-items {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .voor-wie, .producten, .van-deur-tot-deur, .inspiratie, .klantenservice {
+            color: var(--colors-text-default, #003082);
+            text-align: left;
+            font-family: var(--text-bold-lg-18-font-family, "NsSans-Bold", sans-serif);
+            font-size: var(--text-bold-lg-18-font-size, 18px);
+            line-height: var(--text-bold-lg-18-line-height, 150%);
+            font-weight: var(--text-bold-lg-18-font-weight, 700);
+            position: relative;
+        }
+        .page-footer {
+            background: var(--color-content-background-default, #ffffff);
+            border-style: solid;
+            border-color: var(--color-content-border-default, #e4e5e8);
+            border-width: 1px 0px 0px 0px;
+            padding: 40px 64px 40px 64px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-shrink: 0;
+            height: 104px;
+            position: absolute;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            overflow: hidden;
+        }
+        .list {
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .link {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .label2 {
+            color: var(--color-content-text-subtle, #75767c);
+            text-align: left;
+            font-family: var(--text-demi-base-16-font-family, "NsSans-Demi", sans-serif);
+            font-size: var(--text-demi-base-16-font-size, 16px);
+            line-height: var(--text-demi-base-16-line-height, 150%);
+            font-weight: var(--text-demi-base-16-font-weight, 400);
+            position: relative;
+        }
+        .container {
+            background: var(--color-brand-secondary-default, #003082);
+            padding: 64px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 735px;
+            position: absolute;
+            left: 0px;
+            top: 121px;
+        }
+        .wrapper {
+            background: var(--color-content-background-default, #ffffff);
+            border-radius: 12px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-3xl, 48px);
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 100%;
+            flex-shrink: 0;
+            max-width: var(--max-width-xl, 576px);
+            position: relative;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-lg, 20px);
+            align-items: flex-start;
+            justify-content: center;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xs, 8px);
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .inloggen-ns-zakelijk {
+            color: #003082;
+            text-align: left;
+            font-family: var(--heading-heading-2-font-family, "NsSans-Bold", sans-serif);
+            font-size: var(--heading-heading-2-font-size, 24px);
+            line-height: var(--heading-heading-2-line-height, 132%);
+            font-weight: var(--heading-heading-2-font-weight, 700);
+            position: relative;
+            width: 512px;
+        }
+        .divider {
+            background: var(--color-brand-primary-default, #ffc917);
+            flex-shrink: 0;
+            width: 128px;
+            height: 4px;
+            position: relative;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2xl, 32px);
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .input {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .input-header {
+            padding: 0px 0px 4px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .label-help-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+            justify-content: center;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .label-container2 {
+            padding: 0px 0px 4px 0px;
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: center;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .label-wrapper {
+            padding: 0px 2px 0px 0px;
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .label3 {
+            color: var(--colors-form-label, #003082);
+            text-align: left;
+            font-family: var(--text-bold-base-16-font-family, "NsSans-Bold", sans-serif);
+            font-size: var(--text-bold-base-16-font-size, 16px);
+            line-height: var(--text-bold-base-16-line-height, 150%);
+            font-weight: var(--text-bold-base-16-font-weight, 700);
+            position: relative;
+        }
+        .input-field {
+            background: var(--colors-form-bg, #ffffff);
+            border-radius: var(--border-radius-md, 6px);
+            padding: 0px 20px 0px 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+            align-items: center;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            height: 56px;
+            position: relative;
+            overflow: hidden;
+        }
+        .password {
+            display: flex;
+            flex-direction: row;
+            gap: 6px;
+            align-items: flex-end;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: absolute;
+            right: 0px;
+            top: 1px;
+        }
+        .show {
+            flex-shrink: 0;
+            width: 31px;
+            height: 21px;
+            position: relative;
+        }
+        .toon {
+            color: var(--colors-text-cta-default, #0063d3);
+            text-align: left;
+            font-family: var(--text-regular-sm-14-font-family, "NsSans-Regular", sans-serif);
+            font-size: var(--text-regular-sm-14-font-size, 14px);
+            line-height: var(--text-regular-sm-14-line-height, 150%);
+            font-weight: var(--text-regular-sm-14-font-weight, 400);
+            position: absolute;
+            left: 0px;
+            top: 1px;
+        }
+        .button-group {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .button {
+            background: var(--color-brand-primary-default, #ffc917);
+            border-radius: var(--border-radius-md, 6px);
+            padding: 8px 20px 8px 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            min-width: 80px;
+            min-height: 56px;
+            position: relative;
+            overflow: hidden;
+        }
+        .label4 {
+            color: var(--color-brand-primary-on-default, #003082);
+            text-align: center;
+            font-family: "NsSans-Bold", sans-serif;
+            font-size: 18px;
+            line-height: 125%;
+            font-weight: 700;
+            position: relative;
+        }
+        .button2 {
+            border-radius: var(--border-radius-md, 6px);
+            padding: 8px 12px 8px 12px;
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            min-height: 56px;
+            position: relative;
+            overflow: hidden;
+        }
+        .label5 {
+            color: var(--color-brand-tertiary-default, #0063d3);
+            text-align: center;
+            font-family: "NsSans-Bold", sans-serif;
+            font-size: 18px;
+            line-height: 125%;
+            font-weight: 700;
+            position: relative;
+        }
+        .error-message {
+            color: red;
+            font-family: "NsSans-Regular", sans-serif;
+            font-size: 14px;
+            margin-top: 8px;
+            display: none;
+        }

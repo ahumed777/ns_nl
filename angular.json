@@ -25,6 +25,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@nessie/webcomponents/dist/webcomponents/webcomponents.css",
+              "./node_modules/@nessie/webcomponents/dist/webcomponents/fonts.css",
+              
               "src/styles.css"
             ],
             "scripts": [],
@@ -48,7 +51,12 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": {
+                "styles": {
+                  "inlineCritical": false
+                }
+              }
             },
             "development": {
               "optimization": false,
@@ -89,6 +97,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@nessie/webcomponents/dist/webcomponents/webcomponents.css",
+              "./node_modules/@nessie/webcomponents/dist/webcomponents/fonts.css",
+              
               "src/styles.css"
             ],
             "scripts": []
@@ -96,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fbb9d27a-e034-4cfb-bcf6-b24081907622"
   }
 }
